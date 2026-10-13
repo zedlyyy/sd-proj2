@@ -1,5 +1,16 @@
 # tukano2
 
+## Overview
+
+Academic distributed-systems project implementing and testing a Java-based short-video sharing service. The project explores REST and gRPC interfaces, TLS-enabled communication, replication, failure recovery, and supporting services used during testing.
+
+**Technologies and concepts:** Java, Maven, Docker, REST, gRPC, TLS, distributed replication, Kafka/Zookeeper test infrastructure.
+
+**Testing focus:** End-to-end operations, server failures, replication, and recovery scenarios using course test scripts.
+
+---
+
+
 # TESTING             
 ## 1. Build the image (run in your project folder):	
     » build on windows terminal and not WSL because its much slower in WSL
